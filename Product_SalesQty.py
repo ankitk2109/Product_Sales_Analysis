@@ -16,7 +16,7 @@ import openpyxl as op
 import pandas as pd
 import matplotlib.pyplot as plt
 
-path = r"D:\KTyagi\KT\Python_Workspace\DataScience\Assignments\Product_SalesQty.xlsx"
+path = r"..\Product_SalesQty.xlsx"
 
 workbook = op.load_workbook(path)
 sheet_obj = workbook.active
